@@ -27,10 +27,12 @@ The second requirement was to run linear regression on each relationship. This t
 * Southern Hemisphere - Temperature (F) vs. Latitude
 ![S hemisphere temp v. lat](WeatherPy/output_data/S_hemisphere_maxtemp.png)
   
-* Northern Hemisphere - Humidity (%) vs. Latitude
+* Northern Hemisphere - 
+Humidity (%) vs. Latitude
 ![N hemisphere humidity v. lat](WeatherPy/output_data/N_hemisphere_humidity.png)
 
-* Southern Hemisphere - Humidity (%) vs. Latitude
+* Southern Hemisphere - 
+Humidity (%) vs. Latitude
 ![S hemisphere humidity v. lat](WeatherPy/output_data/S_hemisphere_humidity.png)
   
 * Northern Hemisphere - Cloudiness (%) vs. Latitude

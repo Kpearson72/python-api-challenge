@@ -10,43 +10,32 @@ The task was to create a Python script to visualize the weather of 500+ cities a
 
 The first requirement was to create a series of scatter plots to showcase the following relationships:
 
-* Temperature (F) vs. Latitude
+
 ![lat v. temp](WeatherPy/output_data/lat_vs_Temp.png)
-* Humidity (%) vs. Latitude
+
 ![lat v. humidity](WeatherPy/output_data/lat_vs_humidity.png)
-* Cloudiness (%) vs. Latitude
+
 ![lat v. cloudiness](WeatherPy/output_data/lat_vs_cloudiness.png)
-* Wind Speed (mph) vs. Latitude
+
 ![lat v. windspeed](WeatherPy/output_data/lat_vs_windspeed.png)
 
 The second requirement was to run linear regression on each relationship. This time, separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
-* Northern Hemisphere - Temperature (F) vs. Latitude
+
 ![N hemisphere temp v. lat](WeatherPy/output_data/N_hemisphere_maxtemp.png)
 
-* Southern Hemisphere - Temperature (F) vs. Latitude
 ![S hemisphere temp v. lat](WeatherPy/output_data/S_hemisphere_maxtemp.png)
   
-* Northern Hemisphere - 
-Humidity (%) vs. Latitude
-
 ![N hemisphere humidity v. lat](WeatherPy/output_data/N_hemisphere_humidity.png)
-
-* Southern Hemisphere - 
-Humidity (%) vs. Latitude
 
 ![S hemisphere humidity v. lat](WeatherPy/output_data/S_hemisphere_humidity.png)
   
-* Northern Hemisphere - Cloudiness (%) vs. Latitude
 ![N hemisphere cloudiness v. lat](WeatherPy/output_data/N_hemisphere_cloudiness.png)
 
-* Southern Hemisphere - Cloudiness (%) vs. Latitude
 ![S hemisphere cloudiness v. lat](WeatherPy/output_data/S_hemisphere_cloudiness.png)
 
-* Northern Hemisphere - Wind Speed (mph) vs. Latitude
 ![N hemisphere windspeed v. lat](WeatherPy/output_data/N_hemisphere_windspeed.png)
 
-* Southern Hemisphere - Wind Speed (mph) vs. Latitude
 ![S hemisphere windspeed v. lat](WeatherPy/output_data/S_hemisphere_windspeed.png)
 
 My final [jupyter notebook](https://github.com/Kpearson72/python-api-challenge/blob/main/WeatherPy/WeatherPy.ipynb) included:
